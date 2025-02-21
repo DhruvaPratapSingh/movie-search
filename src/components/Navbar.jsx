@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="fixed top-0 left-0 w-full bg-gradient-to-r from-[#a8ff78] via-[#78ffd6] to-[#1e9600] bg-opacity-90 shadow-2xl z-[100]">
         <nav className="w-full md:max-w-[1320px] mx-auto flex justify-between items-center p-4 md:p-6">
           <div className="flex items-center gap-4 font-bold" data-aos="fade-down-left">
-            <img className="w-10 h-10 md:w-14 md:h-14 bg-blue-600" src="/logo.webp" alt="Logo" />
+            <img className="w-10 h-10 md:w-14 md:h-14" src="/logo.webp" alt="Logo" />
             <h1 className="text-xl md:text-2xl text-white">Find Movies</h1>
           </div>
           <div className="hidden md:block">
